@@ -1,0 +1,28 @@
+{
+  "name": "simple-aws-lambda-update",
+  "version": "0.1.0",
+  "description": "A simple tool to update your NPM package to AWS Lambda with zero extra configurations required.",
+  "main": "index.js",
+  "bin": {
+    "aws-lambda-update": "bin/index.js"
+  },
+  "author": {
+    "name": "Yeap Ghee Choon",
+    "email": "contact@garyyeap.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garyyeap/simple-aws-lambda-update.git"
+  },
+  "keywords": [
+    "pack",
+    "lambda",
+    "zip"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "npm-pack-all-zip": "^0.1.0",
+    "shelljs": "^0.8.4",
+    "simple-argv": "^2.0.4"
+  }
+}

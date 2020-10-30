@@ -1,6 +1,6 @@
 {
   "name": "simple-aws-lambda-update",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple tool to update your NPM package to AWS Lambda with zero extra configurations required.",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,8 @@
   "keywords": [
     "pack",
     "lambda",
-    "zip"
+    "zip",
+    "aws"
   ],
   "license": "MIT",
   "dependencies": {
